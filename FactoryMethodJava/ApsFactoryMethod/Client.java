@@ -8,7 +8,7 @@ public class Client {
         payments.put("Pix", new PixFactory());
         payments.put("Boleto", new BoletoFactory());
         
-        int pagamento = payments.get("Pix").criarPagamento();
+        // int pagamento = payments.get("Pix").criarPagamento();
 
         }
 } 
